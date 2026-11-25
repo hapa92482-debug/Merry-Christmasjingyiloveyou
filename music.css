@@ -1,0 +1,53 @@
+/* 音乐按钮 —— 增量样式，独立于原有 paper.css */
+.music-btn {
+  position: absolute;
+  top: max(0.85rem, env(safe-area-inset-top));
+  right: max(0.85rem, env(safe-area-inset-right));
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  padding: 0;
+  border: 1px solid rgba(199, 161, 90, 0.35);
+  border-radius: 50%;
+  background: rgba(255, 251, 242, 0.92);
+  box-shadow: 0 6px 18px rgba(60, 45, 25, 0.16);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.music-btn:hover { transform: translateY(-1px); box-shadow: 0 9px 22px rgba(60, 45, 25, 0.22); }
+.music-btn:active { transform: scale(0.94); }
+.music-btn:focus-visible { outline: 2px solid #C7A15A; outline-offset: 2px; }
+.music-btn .music-icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  image-rendering: auto;
+  pointer-events: none;
+}
+/* 两态图标切换：默认显示暂停态（无声波），播放时显示有声波态 */
+.music-btn .icon-on { display: none; }
+.music-btn[data-state='playing'] .icon-off { display: none; }
+.music-btn[data-state='playing'] .icon-on { display: block; }
+/* 播放中：声波轻微呼吸 */
+@media (prefers-reduced-motion: no-preference) {
+  .music-btn[data-state='playing'] .icon-on { animation: music-pulse 2.4s ease-in-out infinite; }
+}
+@keyframes music-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+/* 未播放时略微降低存在感，不抢贺卡视觉 */
+.music-btn[data-state='idle'],
+.music-btn[data-state='paused'],
+.music-btn[data-state='ended'] { opacity: 0.88; }
+
+@media (max-width: 480px) {
+  .music-btn { width: 2.85rem; height: 2.85rem; }
+}

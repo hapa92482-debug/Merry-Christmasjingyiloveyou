@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#fbfaf9"><link rel="icon" href="data:,">
+  <title>纸上来信</title><link rel="stylesheet" href="./vendor/fonts/fonts.css"><link rel="stylesheet" href="./paper.css">
+  <link rel="stylesheet" href="./music.css">
+</head>
+<body>
+  <main data-renderer="loading">
+    <button type="button" id="music-btn" class="music-btn" data-state="idle" aria-label="播放音乐" title="播放音乐" aria-pressed="false">
+      <img class="music-icon icon-off" src="./public/assets/music-btn-off.png" alt="">
+      <img class="music-icon icon-on" src="./public/assets/music-btn-on.png" alt="">
+    </button>
+    <header><h1>纸雕贺卡</h1></header>
+    <div class="stage" id="stage">
+      <img class="proof" src="./art/cover.webp" alt="纸雕贺卡封面" draggable="false">
+      <canvas aria-hidden="true"></canvas>
+      <article id="letter" aria-label="贺卡内页" hidden><div class="writing" tabindex="0" role="region" aria-label="内页文字"><p id="greeting"></p><p id="message"></p><p id="signature"></p></div></article>
+    </div>
+    <nav class="dock" aria-label="贺卡操作">
+      <button type="button" id="toggle" aria-label="翻开贺卡" title="翻开" aria-controls="letter" aria-expanded="false" disabled>
+        <svg class="icon-closed" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 7v14" />
+          <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+        </svg>
+        <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21V7" />
+          <path d="m16 12 2 2 4-4" />
+          <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+        </svg>
+      </button>
+    </nav>
+    <a id="credit" class="credit" href="https://github.com/dongliang1993/3d-card-master" target="_blank" rel="noopener noreferrer">Made with 3d-card-master</a>
+    <p id="status" role="status" class="notice">本地预览：在本目录运行 python3 -m http.server 8000 --bind 127.0.0.1，再打开 http://127.0.0.1:8000/。</p>
+  </main>
+  <noscript>请启用 JavaScript 来翻开贺卡。</noscript>
+  <script type="module" src="./app.js"></script>
+  <script type="module" src="./music.js"></script>
+</body>
+</html>
