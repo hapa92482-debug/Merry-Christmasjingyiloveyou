@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "card": "winter-moonlight",
+  "entries": [
+    {
+      "key": "./art/cover.webp|1|2.2",
+      "name": "cover",
+      "normal": "cover-normal.webp",
+      "surface": "cover-surface.webp"
+    },
+    {
+      "key": "snow|winter-moonlight",
+      "name": "snow-mask",
+      "src": "snow-mask.webp"
+    },
+    {
+      "key": "left-stickers|winter-moonlight",
+      "name": "left",
+      "normal": "left-normal.webp",
+      "surface": "left-surface.webp"
+    },
+    {
+      "key": "sheet-stickers|winter-moonlight",
+      "name": "sheet",
+      "normal": "sheet-normal.webp",
+      "surface": "sheet-surface.webp"
+    },
+    {
+      "key": "base|winter-moonlight|1|2.2",
+      "name": "base",
+      "normal": "base-normal.webp",
+      "surface": "base-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/cloud-1.webp|348",
+      "name": "layer-cloud-left",
+      "normal": "layer-cloud-left-normal.webp",
+      "surface": "layer-cloud-left-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/cloud-2.webp|339",
+      "name": "layer-cloud-right",
+      "normal": "layer-cloud-right-normal.webp",
+      "surface": "layer-cloud-right-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/star-2.webp|138",
+      "name": "layer-star-right",
+      "normal": "layer-star-right-normal.webp",
+      "surface": "layer-star-right-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/star-1.webp|99",
+      "name": "layer-star-left",
+      "normal": "layer-star-left-normal.webp",
+      "surface": "layer-star-left-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/snowflake-3.webp|210",
+      "name": "layer-ornament",
+      "normal": "layer-ornament-normal.webp",
+      "surface": "layer-ornament-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/star-1.webp|72",
+      "name": "layer-ornament-star-l",
+      "normal": "layer-ornament-star-l-normal.webp",
+      "surface": "layer-ornament-star-l-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/moon.webp|315",
+      "name": "layer-moon",
+      "normal": "layer-moon-normal.webp",
+      "surface": "layer-moon-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/bow-bell.webp|315",
+      "name": "layer-bow-bell",
+      "normal": "layer-bow-bell-normal.webp",
+      "surface": "layer-bow-bell-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/gift.webp|294",
+      "name": "layer-gift",
+      "normal": "layer-gift-normal.webp",
+      "surface": "layer-gift-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/holly.webp|408",
+      "name": "layer-holly",
+      "normal": "layer-holly-normal.webp",
+      "surface": "layer-holly-surface.webp"
+    },
+    {
+      "key": "layer|./art/elements/ribbon.webp|906",
+      "name": "layer-ribbon",
+      "normal": "layer-ribbon-normal.webp",
+      "surface": "layer-ribbon-surface.webp"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "base": "./art/cover-base.webp",
+  "cover": "./art/cover.webp",
+  "size": [
+    940,
+    1316
+  ],
+  "items": [
+    {
+      "id": "cloud-left",
+      "src": "./art/elements/cloud-1.webp",
+      "box": [
+        62,
+        280,
+        232
+      ],
+      "lift": 0.01
+    },
+    {
+      "id": "cloud-right",
+      "src": "./art/elements/cloud-2.webp",
+      "box": [
+        648,
+        425,
+        226
+      ],
+      "lift": 0.01
+    },
+    {
+      "id": "star-right",
+      "src": "./art/elements/star-2.webp",
+      "box": [
+        775,
+        300,
+        92
+      ],
+      "lift": 0.012
+    },
+    {
+      "id": "star-left",
+      "src": "./art/elements/star-1.webp",
+      "box": [
+        92,
+        588,
+        66
+      ],
+      "lift": 0.012
+    },
+    {
+      "id": "bow-red",
+      "src": "./art/elements/bow-red.webp",
+      "box": [
+        150,
+        18,
+        640
+      ],
+      "lift": 0.022,
+      "bob": 0.0012
+    },
+    {
+      "id": "snowman",
+      "src": "./art/elements/snowman.webp",
+      "box": [
+        70,
+        585,
+        215
+      ],
+      "lift": 0.026,
+      "bob": 0.0009
+    },
+    {
+      "id": "tree",
+      "src": "./art/elements/tree.webp",
+      "box": [
+        585,
+        500,
+        320
+      ],
+      "lift": 0.03,
+      "bob": 0.001
+    }
+  ],
+  "motifs": [
+    {
+      "src": "./art/elements/inside-tree.webp",
+      "px": 560,
+      "width": 1.0,
+      "at": [
+        0.5,
+        0.5
+      ],
+      "turn": 0
+    },
+    {
+      "src": "./art/elements/star-2.webp",
+      "px": 320
+    }
+  ]
+}

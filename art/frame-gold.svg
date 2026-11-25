@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1316" viewBox="0 0 940 1316">
+  <!-- Vintage champagne-gold hand-drawn frame.
+       Transparent background · scales with viewBox · four corners share one
+       slender volute motif via rotation. Edit this file to adjust the frame,
+       then re-bake into cover-base.webp / cover.webp. -->
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A98B57"/>
+      <stop offset="0.5" stop-color="#B99A63"/>
+      <stop offset="1" stop-color="#9E8150"/>
+    </linearGradient>
+    <g id="corner" fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- principal slender volute, curling inward -->
+      <path d="M 4,4 C 18,6 33,15 36,30 C 39,44 29,55 17,52 C 7,49 4,38 12,32 C 19,27 26,32 23,39"/>
+      <!-- one slim leaf along the top edge -->
+      <path d="M 10,3 C 26,3 42,7 55,15 C 40,13 24,10 10,3 Z"/>
+      <!-- a tiny bud along the left edge -->
+      <path d="M 3,10 C 9,21 13,33 13,45 C 9,33 5,21 3,10 Z"/>
+      <!-- single small dot -->
+      <circle cx="59" cy="17" r="1.6" fill="#A98B57" stroke="none"/>
+      <!-- short outward hook, very light -->
+      <path d="M 3,3 C 1,-4 7,-9 12,-5 C 15,-2 13,3 9,3" stroke-width="1.6"/>
+    </g>
+  </defs>
+
+  <!-- main double rule, lightly undulating for a hand-inked feel -->
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round">
+    <path d="M 57,24 C 260,23.2 470,24.6 883,23" stroke-width="2.4"/>
+    <path d="M 884,24 C 885,300 883.4,700 884,1293" stroke-width="2.4"/>
+    <path d="M 883,1293 C 640,1294 300,1292.2 57,1293" stroke-width="2.4"/>
+    <path d="M 56,1293 C 55,900 56.6,400 56,24" stroke-width="2.4"/>
+    <!-- faint inner rule -->
+    <path d="M 63,30 C 280,29.2 520,30.5 877,30" stroke-width="1.1" opacity="0.72"/>
+    <path d="M 878,30 C 879,320 877.4,760 878,1287" stroke-width="1.1" opacity="0.72"/>
+    <path d="M 877,1287 C 600,1288 320,1286.2 63,1287" stroke-width="1.1" opacity="0.72"/>
+    <path d="M 62,1287 C 61,880 62.5,430 62,30" stroke-width="1.1" opacity="0.72"/>
+  </g>
+
+  <!-- four corners, one slender motif rotated -->
+  <use href="#corner" transform="translate(57,24)"/>
+  <use href="#corner" transform="translate(883,24) scale(-1,1)"/>
+  <use href="#corner" transform="translate(883,1293) scale(-1,-1)"/>
+  <use href="#corner" transform="translate(57,1293) scale(1,-1)"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="940" height="1316" viewBox="0 0 940 1316">
+  <!-- 金色雪花/星星装饰层 · 由编辑器导出 · 每个 image 可独立选择/拖动/缩放/旋转/删除 -->
+  <image id="snowflake-01" data-label="右上大雪花" xlink:href="./elements/snow-gold.png"
+         x="-29.5" y="-34.1" width="59" height="68.3"
+         transform="translate(717.6,177.1) rotate(20)"/>
+  <image id="snowflake-02" data-label="右中雪花" xlink:href="./elements/snow-gold.png"
+         x="-39.0" y="-45.0" width="78" height="90"
+         transform="translate(815.0,415.0) rotate(-10)"/>
+  <image id="snowflake-03" data-label="左中雪花" xlink:href="./elements/snow-gold.png"
+         x="-25.6" y="-29.8" width="51.1" height="59.6"
+         transform="translate(105.0,621.5) rotate(7)"/>
+  <image id="snowflake-04" data-label="右下雪花" xlink:href="./elements/snow-gold.png"
+         x="-29.2" y="-34.0" width="58.4" height="67.9"
+         transform="translate(815.0,1070.0) rotate(-6)"/>
+  <image id="snowflake-05" data-label="左下小雪花" xlink:href="./elements/snow-gold.png"
+         x="-30.0" y="-35.0" width="60" height="70"
+         transform="translate(135.0,1085.0) rotate(18)"/>
+  <image id="star-01" data-label="左上星星" xlink:href="./elements/star-gold.png"
+         x="-26.0" y="-31.5" width="52" height="63"
+         transform="translate(110.0,80.0) rotate(12)"/>
+  <image id="star-02" data-label="右上星星" xlink:href="./elements/star-gold.png"
+         x="-23.0" y="-28.0" width="46" height="56"
+         transform="translate(705.0,72.0) rotate(-8)"/>
+  <image id="star-03" data-label="左上云旁星星" xlink:href="./elements/star-gold.png"
+         x="-22.0" y="-27.0" width="44" height="54"
+         transform="translate(92.0,305.0) rotate(20)"/>
+  <image id="star-04" data-label="右侧星星" xlink:href="./elements/star-gold.png"
+         x="-21.0" y="-25.5" width="42" height="51"
+         transform="translate(850.0,300.0) rotate(-15)"/>
+  <image id="star-05" data-label="左侧星星" xlink:href="./elements/star-gold.png"
+         x="-18.1" y="-21.9" width="36.1" height="43.7"
+         transform="translate(156.0,448.9) rotate(-23)"/>
+  <image id="star-06" data-label="左下星星" xlink:href="./elements/star-gold.png"
+         x="-22.0" y="-27.0" width="44" height="54"
+         transform="translate(175.0,975.0) rotate(-10)"/>
+  <image id="star-07" data-label="右下星星" xlink:href="./elements/star-gold.png"
+         x="-23.8" y="-29.2" width="47.5" height="58.4"
+         transform="translate(696.7,1037.0) rotate(-16)"/>
+  <image id="star-08" data-label="底部左星星" xlink:href="./elements/star-gold.png"
+         x="-20.0" y="-24.5" width="40" height="49"
+         transform="translate(200.0,1185.0) rotate(-12)"/>
+  <image id="star-09" data-label="底部右星星" xlink:href="./elements/star-gold.png"
+         x="-21.0" y="-25.5" width="42" height="51"
+         transform="translate(700.0,1185.0) rotate(10)"/>
+</svg>
